@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    padding: 0 1em;
+    max-width: 50em;
+    margin: 0 auto;
+    
+}
+
+header {
+    text-align-last: center;
+    padding: 1rem 0;
+    
+}
+
+nav ul {
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0;
+    
+}
+
+nav a:hover {
+    color: blue
+    
+}
+
+.center-image {
+    display:block;
+    margin: 1rem auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px
+}
+
+footer {
+    text-align-last: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid color- gray;
+    
+}
