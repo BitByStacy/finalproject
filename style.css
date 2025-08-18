@@ -48,8 +48,7 @@ footer {
     text-align-last: center;
     margin-top: 2rem;
     padding-top: 1rem;
-    border-top: 1px solid color- gray;
-    
+    border-top: 1px solid color- gray;  
 }
 
 .cards {
@@ -80,3 +79,4 @@ flex-wrap: wrap;
 .card a hover {
     color: blue;
 }
+
