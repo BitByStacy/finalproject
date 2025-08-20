@@ -2,53 +2,107 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     padding: 0 1em;
-    max-width: 50em;
+    max-width: 60em;
     margin: 0 auto;
-    background: white;
-    color: saddlebrown
+    background-color: lavender;
+    color: black
     
 }
 
 header {
     text-align-last: center;
-    padding: 1rem 0;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 2px solid gray;
     
 }
 
+nav {
+    
+    background-color: lightgray;
+        padding: 10px 0;
+}
 nav ul {
     list-style: none;
     display:flex;
     justify-content: center;
-    gap: 1.5rem;
     padding: 0;
+    margin: 0;
+    gap: 20px;
     
 }
-
+nav ul li {
+    display: inline;
+}
 nav a {
  text-decoration: none;
  font-weight: bold;
-color: saddlebrown
+color: white;
+padding: 5px 10px;
+cursor: pointer;
+transition: all .2s;
+
 }
 
 
 nav a:hover {
-    color: blue
-    
+    color: blue;
+    border-radius: 4px;
+    background-color: white;
 }
 
+header {
+    text-align-last: center;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 2px solid gray;
+}
+
+header p {
+    margin-top: 5px;
+    color: gray;
+}
+
+.section-title {
+    color: slategray;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ol, ul {
+    margin: 10px 40px;
+}
+
+li a {
+    color:black;
+}
+
+lo a:hover {
+    color: slategray;
+}
 .center-image {
     display:block;
     margin: 1rem auto;
     max-width: 80%;
     height: auto;
-    border-radius: 10px
+    border-radius: 10px;
+    border: 5px solid slategray;
 }
 
 footer {
+    background-color: gray;
     text-align-last: center;
     margin-top: 2rem;
-    padding-top: 1rem;
-    border-top: 1px solid color- gray;  
+    padding-top: 15px;
+    border-top: 2px solid color- black;  
+    color:white;
+}
+footer a {
+    color:white;
+    text-decoration: none;
+}
+footer a hover {
+    color: black;
 }
 
 .cards {
@@ -60,7 +114,7 @@ flex-wrap: wrap;
 }
 
 .card {
-    background: #f5f5f5;
+    background: white;
     border-radius: 8px;
     padding: 16px;
     width: 250px;
@@ -69,14 +123,30 @@ flex-wrap: wrap;
     transition: transform 0.2s;
 }
 
+.card:hover 
+{
+transform: scale(1.05);    
+}
+
+
 .card a {
     display: block;
     font-weight: bold;
     text-decoration: none;
-    color: saddlebrown
+    color: black;
+    margin-top:0.5rem;
 }
-
+.card img {
+    
+    max-width: 100%;
+    height: auto;
+    border: 5px solid slategray;
+        border-radius: 8px;
+}
 .card a hover {
     color: blue;
 }
 
+h1, h2, h3 {
+    color: black;
+}

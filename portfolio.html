@@ -4,7 +4,7 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Portfolio site of Stacy Reynolds Projects from BATECH 189">
-        <title>About the Designer - Stacy Reynolds</title>
+        <title>Portfolio - Stacy Reynolds</title>
         <link rel="stylesheet" href="style.css">
     
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,25 +12,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-    <header>
-    <h1>My Portfolio</h1>
-</header>
-    <nav>
+    <nav class="main-nav">   
     <ul>
         <li><a href="index.html">Meet the Designer</a></li>    
         <li><a href="portfolio.html">My Portfolio</a></li>
         <li><a href="resources.html">Resources</a></li>
     </ul> 
     </nav>
+        
+    <header>
+    <h1>My Portfolio</h1>  
+        <p>Click on the project links below to view them live!</p>
+        </header>
     <main>
-    <section>
-    <h2 class="My Portfolio">View my profolio!</h2>
-    <p>To view my work click on the links below.</p>
+    <section class="portfolio-intro">
+    <h2 class="Section-Title">View my Work!</h2>
+    <p>Here are the web projects I've completed in BATECH 189. Each includes a link to view the live project.</p>  
     </section>
         
     <section id="mywork" class="cards">
-    
-    <div class="card" id=project1>
+        
+    <article class="card" id="project1">
     <h3>Web Project 1- Resume</h3> 
         <p>In this assignment, I learned how to build a simple web page using basic HTML5. I practiced creating the correct
         document structure with &lt;!DOCTYPE html&gt;, &lt;head&gt;, and &lt;body&gt; elements, and organize my content with heading, paragraphs
@@ -38,18 +40,18 @@
        <img src="resume.png" alt="Stacy Reynolds Resume" class="center-image" style="float: left; margin-right: 20px; width:150px;" />  
        
         <a href="https://bitbystacy.github.io/project1/" target="_blank" rel="noopener">Click Here</a>               
-        </div>
-    
-    <div class="card" id=project2>
+     </article> 
+        
+    <article class="card" id="project2">
     <h3>Web Project 2- 5 Steps to Starting Your Own Business</h3>
-       
         <img src="business.png" alt="A screenshot of my website how to start your own business" class="center-image" style="float: left; margin-right: 20px;" />
         <p>In this project I learned how to build a one page website using semantic HTML and internal CSS, applying the 
         Box Model to styld text, images, and sections. I also practiced organizing content, adding accessible images with 
         alt text and citations and using proper structure like headings, sections, and footer.</p>
          <a href="https://bitbystacy.github.io/project2/" target="_blank" rel="noopener">Click Here</a>
-    </div>
-    <div class="card" id=webproject3>
+    </article>
+        
+    <article class="card" id="webproject3">
     <h3>Web Project 3- My Favorite City: Orlando, Flordia</h3>
        
         <img src="favcity.png" alt="a screenshot of My favorite city home page"  class="center-image" style="float: left; margin-right: 20px;"/>
@@ -57,9 +59,9 @@
         orgaizing content with semantic elements, heading, paragraphs, list, and images while applying CSS for layout, color, margins, and padding.
         I also learned to float imagae, cite sources, and use meta tags for SEO.</p>
         <a href="https://bitbystacy.github.io/webproject3/" target="_blank" rel="noopener">Click Here</a> 
-    </div>
+        </article>
     
-        <div class="card" id=webproject4>
+        <article class="card" id="webproject4">
         <h3>Web Project 4- E Book</h3>
             
             <img src="Oz.png" alt="a screenshot of The Wizard of Oz home page" class="center-image" style="float: left; margin-right: 20px;"/>
@@ -68,7 +70,8 @@
             stylesheets, flexbok for layout and navigation, floating images, accessible alt text, color schemes, and proper formatting for 
             readability across multiple pages.</p>
             <a href="https://bitbystacy.github.io/webproject4/" target="_blank" rel="noopener">Click Here</a>
-        </div>
+        </article>
+        
     </section>    
     </main>    
     
